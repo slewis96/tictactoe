@@ -41,37 +41,37 @@ $(document).ready(function(e){
     var eightInner = $('#8').html();
     //horizontal win
     if(zeroInner==xo&&oneInner==xo&&twoInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     if(threeInner==xo&&fourInner==xo&&fiveInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     if(sixInner==xo&&sevenInner==xo&&eightInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     //vertical win
     if(zeroInner==xo&&threeInner==xo&&sixInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     if(oneInner==xo&&fourInner==xo&&sevenInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     if(twoInner==xo&&fiveInner==xo&&eightInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     //diagnol win
     if(zeroInner==xo&&fourInner==xo&&eightInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
     if(twoInner==xo&&fourInner==xo&&sixInner==xo){
-      setTimeout("alert('"+xo+" wins');", 1);
+      setTimeout("alert('"+xo+" wins');", 2);
       location.reload();
     }
   }
